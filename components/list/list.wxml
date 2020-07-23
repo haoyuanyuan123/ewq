@@ -1,0 +1,13 @@
+<!--components/list/list.wxml-->
+<view class="tt">
+    <text class="title">{{title}}</text>
+    <text class="detail"  bindtap="detail" data-link="{{a}}" data-title="{{title}}">查看更多</text><van-icon style="color:#41BC55;flex:1" name="arrow" />
+</view>
+<scroll-view scroll-x="true" class="sc1">
+     <view wx:for="{{arr}}" wx:key="index" class="v1" data-id="{{item.id}}" bindtap="id">
+       <image src="{{item.images.large}}">  </image>
+       <text class="title">{{item.title}}</text>
+       <van-rate size="10" gutter="0" disabled  disabled-color="#ffd21e" value="{{item.rating.average/2}}"allow-half/><text style="font-size:20rpx;margin-left:10rpx">{{item.rating.average}}</text>
+    </view>
+</scroll-view>
+

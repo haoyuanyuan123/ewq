@@ -1,0 +1,45 @@
+/* components/bangitem/bangitem.wxss */
+.bang1{
+  width: 92%;
+  margin: 30rpx auto;
+  height: 300rpx;
+  background-size: 100% 100%;
+  border-radius: 10rpx;
+}
+.bang_tt{
+   position: relative;
+   top: 0;
+   display: block;
+   color: white;
+   font-size: 38rpx;
+   font-weight: 600;
+   margin-left: 40rpx; 
+}
+.bang_img image{
+  margin-top: 20rpx;
+  position: absolute;
+  width: 110rpx;
+  height: 150rpx;
+}
+.bimg1{
+  z-index: 10;
+  margin-left: 40rpx;
+}
+.bimg2{
+   z-index: 8;
+   margin-left: 120rpx;
+}
+.bimg3{
+  z-index: 6;
+  margin-left: 200rpx;
+}
+.count{
+  position: absolute;
+  margin-top: 20rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  color: white;
+  margin-left: 350rpx;
+  font-weight: 500;
+  font-size: 35rpx;
+}

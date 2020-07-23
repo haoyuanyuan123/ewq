@@ -1,0 +1,31 @@
+<!--pages/ranking/ranking.wxml-->
+<view class="container">
+  <view class="list">
+  <!--影片信息开始-->
+   <view class="item" wx:for="{{movies}}" wx:key="index">
+    <!--影片的海报开始-->
+    <navigator url="/pages/details/details?id={{item.id}}">
+      <image class="poster" src="{{item.images.large}}"></image>
+    </navigator>
+    <!--影片的海报结束-->
+    <!--影片的信息开始-->
+    <view class="meta">
+      <navigator url="page/details/details?id={{item.id}}">
+        <text class="title">{{item.title}}</text>
+      </navigator>
+        <text class="subTitle">{{item.original_title}}({{item.year}})</text>
+        <view class="directors">
+          导演：<text wx:for="{{item.directors}}" wx:key="index">{{item.name}}</text>
+        </view>
+    </view>
+    <!--影片的信息结束-->
+    <!--影片的评分开始-->
+    <view class="rating">
+      <text>{{item.rating.average}}</text>
+    </view>
+    <!--影片的评分结束-->
+   </view>
+    <!--影片信息结束-->
+    <view style="width:100%;height:30rpx; background:#EDEDED"></view>
+  </view>
+</view>

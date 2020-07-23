@@ -1,0 +1,51 @@
+/* pages/ranking/ranking.wxss */
+.list{
+ background-color:#ededed;
+ margin-top: 20rpx ;
+
+}
+.item{
+  display: flex;
+  /* align-items: center; */
+  margin-top: 20rpx ;
+  /* margin:20rpx; */
+  /* border-radius: 10rpx; */
+  background-color:#f9f9f9;
+
+}
+.poster{
+  flex: 1;
+  width: 120rpx;
+  height: 178rpx;
+  margin: 10rpx 20rpx ;
+}
+.meta{
+  flex: 4;
+}
+.title{
+  display: block;
+  color:#000;
+  font-size: 40rpx;
+  margin-bottom:20rpx;
+}
+.subTitle,.directors{
+  color:#AEAEAE;
+  font-size: 30rpx;
+  display: block;
+  margin-bottom:15rpx
+}
+.directors text{
+  display: inline-block;
+  margin-right: 10rpx;
+}
+.rating{
+  flex:1;
+}
+.rating text{
+  display: inline-block;
+  padding:10rpx;
+  background-color:#f9705a;
+  color: #fff;
+
+  border-radius: 10rpx;
+}

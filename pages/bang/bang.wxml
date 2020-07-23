@@ -1,0 +1,15 @@
+
+<view class="bang">
+     <bangitem arr="{{arr1}}"  a="/movie/us_box"></bangitem>
+     <bangitem arr="{{arr2}}"  a="/movie/weekly"></bangitem>
+     <view class="bang2" wx:if="{{arr2.bac}}" wx:for="{{bang}}" wx:key="index">
+           <view class="bang2_img">
+             <image src="{{item.image}}"></image>
+           </view>
+           <view class="bang_txt">
+             <text class="bang_text">{{"1.  "+item.first}} <text>{{item.avg1+"分"}}</text></text>
+             <text class="bang_text">{{"2.  "+item.two}}<text>{{item.avg2+"分"}}</text></text>
+             <text class="bang_text">{{"3.  "+item.three}}<text>{{item.avg3+"分"}}</text></text>
+           </view>
+     </view>
+</view>

@@ -1,0 +1,45 @@
+/* components/list/list.wxss */
+.tt{
+  display: flex;
+  height: 70rpx;
+  width: 96%;
+  margin-top: 15rpx;
+  padding-left: 2%;
+  line-height: 70rpx;
+  font-size: 30rpx;
+}
+.tt .title{
+  font-weight: 600;
+  flex: 25;
+}
+.tt .detail{
+   color: #41BC55;
+}
+.v1{
+  display: inline-block;
+  width: 25%;
+}
+.v1 image{
+  margin-left: 5%;
+  width: 90%;
+  height: 250rpx;
+  border-radius: 5rpx;
+}
+.v1 .title{
+  margin-left: 5%;
+  display: block;
+  font-size: 24rpx;
+  font-weight: 600;
+  overflow: hidden;
+  width: 90%;
+  height: 30rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.sc1{
+  height: 350rpx;
+  width: 98%;
+  margin: 0 auto;
+  white-space: nowrap;
+  /*  让里面的子元素不换行 */
+}

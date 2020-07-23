@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+     "bangitem":"../../components/bangitem/bangitem"
+  },
+  "backgroundColor": "#F6F6F6",
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#0aa1ed",
+  "navigationBarTitleText": "榜单",
+  "navigationBarTextStyle": "black"
+}

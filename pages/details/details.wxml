@@ -1,0 +1,38 @@
+<!-- pages/details/details.wxml-->
+
+<view class="detail">
+    <view class="top">
+          <view class="top_img"> <image src="{{arr.images.large}}"></image></view>
+          <view class="top_text">
+             <text class="ctitle">{{arr.title}}（{{arr.year}}）</text>
+             <text class="etitle">{{arr.original_title}}（{{arr.year}}）</text>
+             <text class="lei">{{arr.genres}}{{"/"+arr.countries}}{{"/片长"+arr.durations}}</text>
+            <text class="ping">{{arr.ratings_count+"人评分"}}</text>
+          </view>
+    </view>
+    
+      <view class="introduction"> 
+          <text class="in_title">简介</text>
+          <text class="in_detail">{{arr.summary}}</text>
+     </view>
+     
+     <view class="filmmaker">
+     <text class="filmmaker_tt">影人</text>
+     <scroll-view scroll-x="true" class="f_sc">
+        <view wx:for="{{arr.directors}}" class="filmmaker_v">
+         <image src="{{item.avatars.large}}">  </image>
+         <text class="ftitle">{{item.name}}</text>
+         <text class="title">{{item.title}}</text>
+         </view>
+         </scroll-view>
+     </view>
+     <view class="photos">
+       <view class="photo_tt"><text style=" font-size:32rpx;font-weight:600">预告片/剧照</text> <view><text style="font-size:24rpx">全部{{arr.photos_count}}</text> <van-icon size="11" name="arrow" /></view></view>
+       <swiper autoplay="true" circular="true">
+          <swiper-item wx:for="{{arr.photos}}" wx:key="index">
+            <image src="{{item.thumb}}"></image>
+          </swiper-item>
+       </swiper>
+      </view>
+</view>
+

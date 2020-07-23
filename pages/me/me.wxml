@@ -1,0 +1,13 @@
+ <view class="body">
+     <view class="mytop" wx:if="{{!arr}}">
+          <!-- <image  src="../../images/image/bac.jpg"></image> -->
+          <image class="touxiang" src="../../images/weidenglutouxiang.png"></image>
+          <button class="btn1" open-type="getUserInfo" bindgetuserinfo="getInfo">登录</button>
+     </view>
+     <view class="mytop1" wx:if="{{arr}}">
+          <!-- <image class="bac" src="../../images/image/bac.jpg"></image> -->
+          <image class="touxiang" src="{{arr.avatarUrl}}"></image>
+          <text>{{arr.nickName}}</text>
+          <button bindtap="loginout" class="btn2">退出</button>
+     </view>
+   </view>

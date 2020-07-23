@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<view class="list">
+<view class="movie-list">
+<view  class="movie-item" wx:for="{{newMovies}}" wx:key="index">
+<navigator class="item" hover-class="none" url="/pages/details/details?id={{item.id}}">
+<view class="list-item">
+ <image src="{{item.images.large}}" mode="aspectFill" />
+<text>{{item.title}}</text>
+</view>
+</navigator>
+</view>
+</view>
+</view>

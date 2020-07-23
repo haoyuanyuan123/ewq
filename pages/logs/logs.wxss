@@ -1,0 +1,85 @@
+.top{
+  width: 100%;
+  height: 350rpx;
+  background-size: 100%,100%;
+}
+.top_tt{
+  display: block;
+  width: 100%;
+  height: 300rpx;
+  line-height: 300rpx;
+  font-size: 48rpx;
+  letter-spacing:10rpx;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+.no{
+  height: 30rpx;
+  display: block;
+}
+.containter{
+   height: 240rpx;
+   width: 94%;
+   margin: 20rpx auto;
+   display: flex;
+}
+.con_img{
+   flex: 3;
+}
+.con_img image{
+  display: block;
+  width: 90%;
+  height: 240rpx;
+  margin: 0 auto;
+}
+.con_text{
+  padding-left: 3%;
+   flex: 5;
+}
+.con_tt{
+  display: block;
+  font-weight: 600;
+  font-size: 35rpx;
+  margin-top: 10rpx;
+}
+.con_y{
+  display: block;
+  color: #AEAEAE;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.con_right{
+   flex: 2;
+   border-left: 1px dashed #AEAEAE;
+}
+.con_right text{
+  display: block;
+  margin-top: 10rpx;
+   color: #FFAB2F;
+   width: 100%;
+   text-align: center;
+   font-size: 26rpx;
+}
+.buttom{
+  height: 140rpx;
+  width: 92%;
+  margin: 20rpx auto;
+}
+.buttom view{
+   width: 100%;
+   height: 120rpx;
+   margin-top: 10rpx;
+   background: #F8F8F8;
+   overflow: hidden;
+}
+.buttom text{
+  display: -webkit-box;
+  box-orient: vertical;
+  line-height: 40rpx;
+  color: #AEAEAE;
+  font-size: 24rpx;
+  padding:0 10rpx;
+  line-clamp: 3;
+  text-overflow: ellipsis;
+}

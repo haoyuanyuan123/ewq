@@ -1,0 +1,26 @@
+/* pages/list/list.wxss*/
+
+.movie-list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15rpx;
+}
+.movie-item{
+  width: 69px;
+  margin:10rpx
+}
+.movie-item image{
+  display: block;
+  width: 100%;
+  height: 230rpx;
+}
+.movie-item text{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

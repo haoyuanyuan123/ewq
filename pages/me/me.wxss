@@ -1,0 +1,80 @@
+
+.mytop{
+  width: 100%;
+  /* height: 400rpx; */
+display: block;
+padding-top: 40%;
+
+}
+.mytop image{
+  width: 100%;
+  height: 400rpx;
+  
+}
+.mytop .touxiang{
+  /* top: 120rpx; */
+  left: 50%;
+  position: absolute;
+  width: 200rpx;
+  height:200rpx;
+  border-radius: 50%;
+ 
+  transform: translate(-50%,-20%);
+  display: inline-block;
+  
+}
+.mytop .btn1{
+  /* position: absolute; */
+  display: block;
+  top: 350rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: rgb(68, 178, 247);
+  width: 300rpx;
+  font-size: 36rpx;
+color: #fff;
+  padding: 0;
+  text-align: center;
+}
+
+.mytop1{
+  width: 100%;
+  /* height: 400rpx; */
+  /* left:40%; */
+  display: block;
+  padding-top: 40%;
+}
+
+.mytop1 .touxiang{
+  /* top: 120rpx; */
+  left: 50%;
+  position: absolute;
+  width: 200rpx;
+  height:200rpx;
+  border-radius: 50%;
+  transform: translate(-50%,-20%);
+  display: inline-block;
+}
+
+.mytop1 text{
+  position: absolute;
+  /* top: 280rpx; */
+  /* display: block; */
+  width: 100%;
+  text-align: center;
+  top:50%;
+}
+
+.mytop1 .btn2{
+  /* position: absolute; */
+  display: block;
+  top: 350rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: rgb(68, 178, 247);
+  width: 300rpx;
+  font-size: 36rpx;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+}
